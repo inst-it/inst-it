@@ -5,12 +5,12 @@ _Tao Gui<sup>1</sup>, Hang Xu<sup>3</sup>, Xipeng Qiu<sup>1,2</sup>, Zuxuan Wu<s
 
  <sup>1</sup>School of Computer Science, Fudan University; <sup>2</sup>Shanghai Innovation Institute; <sup>3</sup>Huawei Noah’s Ark Lab
 
-[`Paper`](https://arxiv.org/abs/2312.00081) 
-[`🤗Checkpoints`]()
-[`🤗Inst-IT Bench`]()
-[`🤗Inst-IT Dataset`]()
-[·Leaderboard`]()
-[`BibTex`](#citation) 
+[[`Paper`](https://arxiv.org/abs/2312.00081)] 
+[[`🤗Checkpoints`]()] 
+[[`🤗Inst-IT Bench`]()] 
+[[`🤗Inst-IT Dataset`]()] 
+[[`Leaderboard`]()] 
+[[`BibTex`](#citation)]
 
 ## News
 * `Apr. 14, 2024` xxx
