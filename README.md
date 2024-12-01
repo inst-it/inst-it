@@ -1,4 +1,4 @@
-## Hi there 👋
+# <img src="assets/logo.png" style="vertical-align: -10px;" :height="50px" width="50px"> Inst-IT: Boosting Instance Understanding via Explicit Visual Prompt Instruction Tuning
 
 <!--
 **inst-it/inst-it** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
