@@ -2,7 +2,9 @@
 
 ## Boosting Instance Understanding via Explicit Visual Prompt Instruction Tuning
 
-_[Wujian Peng<sup>1,2*</sup>](https://scholar.google.com/citations?user=GTuWk9YAAAAJ&hl=zh-CN), [Lingchen Meng<sup>1*</sup>](https://menglcool.github.io/), Yitong Chen<sup>1,2</sup>, Yiweng Xie<sup>1</sup>, Yang Liu<sup>1</sup>, [Tao Gui<sup>1</sup>](https://guitaowufeng.github.io/), [Hang Xu<sup>3</sup>](https://xuhangcn.github.io/), [Xipeng Qiu<sup>1,2</sup>](https://xpqiu.github.io/en.html), [Zuxuan Wu<sup>1,2&dagger;</sup>](https://zxwu.azurewebsites.net/), Yu-gang Jiang<sup>1</sup>_
+_[Wujian Peng<sup>1,2*</sup>](https://scholar.google.com/citations?user=GTuWk9YAAAAJ&hl=zh-CN), [Lingchen Meng<sup>1*</sup>](https://menglcool.github.io/), Yitong Chen<sup>1,2</sup>, Yiweng Xie<sup>1</sup>, Yang Liu<sup>1</sup>_
+
+_[Tao Gui<sup>1</sup>](https://guitaowufeng.github.io/), [Hang Xu<sup>3</sup>](https://xuhangcn.github.io/), [Xipeng Qiu<sup>1,2</sup>](https://xpqiu.github.io/en.html), [Zuxuan Wu<sup>1,2&dagger;</sup>](https://zxwu.azurewebsites.net/), Yu-gang Jiang<sup>1</sup>_
 
  <sup>1</sup>School of Computer Science, Fudan University; <sup>2</sup>Shanghai Innovation Institute; <sup>3</sup>Huawei Noah’s Ark Lab
 
