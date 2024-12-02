@@ -5,12 +5,12 @@ _Tao Gui<sup>1</sup>, Hang Xu<sup>3</sup>, Xipeng Qiu<sup>1,2</sup>, Zuxuan Wu<s
 
  <sup>1</sup>School of Computer Science, Fudan University; <sup>2</sup>Shanghai Innovation Institute; <sup>3</sup>Huawei Noah’s Ark Lab
 
-[[`🌐Project Page`](https://inst-it.github.io/)]
-[[`📄Paper`](https://arxiv.org/abs/2312.00081)] 
-[[`🤗Checkpoints`]()] 
-[[`🤗Inst-IT Bench`]()] 
-[[`🤗Inst-IT Dataset`]()] 
-[[`🏆Leaderboard`]()] 
+[[<img src="logo.jpg" alt="🌐" style="height: 1em;"> Project Page](https://inst-it.github.io/)]
+[[<img src="logo.jpg" alt="📄" style="height: 1em;"> Paper](https://arxiv.org/abs/2312.00081)] 
+[<img src="logo.jpg" alt="🤗" style="height: 1em;"> Checkpoints] 
+[[<img src="logo.jpg" alt="🤗" style="height: 1em;"> Inst-IT Bench]()] 
+[[<img src="logo.jpg" alt="🤗" style="height: 1em;"> Inst-IT Dataset]()] 
+[<img src="logo.jpg" alt="🏆" style="height: 1em;"> Leaderboard] 
 
 ## News
 * `Apr. 14, 2024` xxx
@@ -28,10 +28,10 @@ Email (Wujian Peng): wjpeng24@m.fudan.edu.cn
 If you use our code or data in this repo or find our work helpful, please consider giving a citation:
 
 ```
-@inproceedings{spec2024,
-  title={Synthesize Diagnose and Optimize: Towards Fine-Grained Vision-Language Understanding},
-  author={Peng, Wujian and Xie, Sicheng and You, Zuyao and Lan, Shiyi and Wu, Zuxuan},
-  booktitle={CVPR},
-  year={2024}
-}
+ @article{peng2024boosting,
+   title={Boosting Instance Understanding via Explicit Visual Prompt Instruction Tuning},
+   author={Peng, Wujian and Meng, Lingchen and Chen, Yitong and Xie, Yiweng and Liu, Yang and Gui, Tao and Hang, Xu and Qiu, Xipeng and Wu, Zuxuan and Jiang, Yu-gang},
+   journal={arXiv preprint},
+   year={2024}
+ }
 ```
