@@ -44,7 +44,7 @@ Feel free to contact us if you have any questions or suggestions
 Email (Wujian Peng): wjpeng24@m.fudan.edu.cn
 
 ## Citation
-If you find our work helpful, please consider giving us a citation and a star :star2: :
+If you find our work helpful, please consider giving us a citation :paperclip: and a star :star2: :
 
 ```
  @article{peng2024boosting,
@@ -54,3 +54,5 @@ If you find our work helpful, please consider giving us a citation and a star :s
    year={2024}
  }
 ```
+
+## Acknowledgment
