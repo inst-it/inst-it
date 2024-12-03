@@ -1,10 +1,10 @@
-<p align="center">
-  <img src="logo.jpg" width="180"> <br>
-</p>
+<div align="center">
+  <img src="logo.jpg" width="100px" style="vertical-align: middle; display: inline;">
+</div>
 
 
 
-#  <span style="font-variant: small-caps;">Inst-It:</span> Boosting Multimodal Instance Understanding via Explicit Visual Prompt Instruction Tuning
+# Inst-IT: Boosting Multimodal Instance Understanding via Explicit Visual Prompt Instruction Tuning
 
 _Wujian Peng<sup>1,2*</sup>, Lingchen Meng<sup>1*</sup>, Yitong Chen<sup>1,2</sup>, Yiweng Xie<sup>1</sup>, Yang Liu<sup>1</sup>,_
 _Tao Gui<sup>1</sup>, Hang Xu<sup>3</sup>, Xipeng Qiu<sup>1,2</sup>, Zuxuan Wu<sup>1,2&dagger;</sup>, Yu-gang Jiang<sup>1</sup>_
