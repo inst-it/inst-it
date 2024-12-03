@@ -29,10 +29,10 @@ _Tao Gui<sup>1</sup>, Hang Xu<sup>3</sup>, Xipeng Qiu<sup>1,2</sup>, Zuxuan Wu<s
 
 ## <img src="assets/dataset.png" alt="🏆" style="height: 1em;"> Inst-IT Dataset
 
-## Training
-
 ## Model weights
 Our model checkpoints and the instructions on how to use them are available at [here]().
+
+## Training
 
 ## Todo
 - [ ] xxx
