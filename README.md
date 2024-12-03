@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo.jpg" width="100px" style="vertical-align: middle; display: inline;">
+  <img src="assets/logo.jpg" width="100px" style="vertical-align: middle; display: inline;">
 </div>
 
 
@@ -12,11 +12,11 @@ _Tao Gui<sup>1</sup>, Hang Xu<sup>3</sup>, Xipeng Qiu<sup>1,2</sup>, Zuxuan Wu<s
  <sup>1</sup>School of Computer Science, Fudan University; <sup>2</sup>Shanghai Innovation Institute; <sup>3</sup>Huawei Noah’s Ark Lab
 
 [[🌐 Project Page](https://inst-it.github.io/)]
-[[<img src="paper.png" alt="📄" style="height: 1em;"> Paper](https://arxiv.org/abs/2312.00081)] 
-[<img src="hf.png" alt="🤗" style="height: 1em;"> Checkpoints] 
-[[<img src="hf.png" alt="🤗" style="height: 1em;"> Inst-IT Bench]()] 
-[[<img src="hf.png" alt="🤗" style="height: 1em;"> Inst-IT Dataset]()] 
-[<img src="leaderboard.png" alt="🏆" style="height: 1em;"> Leaderboard] 
+[[<img src="assets/paper.png" alt="📄" style="height: 1em;"> Paper](https://arxiv.org/abs/2312.00081)] 
+[<img src="assets/hf.png" alt="🤗" style="height: 1em;"> Checkpoints] 
+[[<img src="assets/hf.png" alt="🤗" style="height: 1em;"> Inst-IT Bench]()] 
+[[<img src="assets/hf.png" alt="🤗" style="height: 1em;"> Inst-IT Dataset]()] 
+[<img src="assets/leaderboard.png" alt="🏆" style="height: 1em;"> Leaderboard] 
 
 ## News
 * :fire: `Dec. 4, 2024` our paper can be previewed on [Arxiv]().
@@ -25,9 +25,9 @@ _Tao Gui<sup>1</sup>, Hang Xu<sup>3</sup>, Xipeng Qiu<sup>1,2</sup>, Zuxuan Wu<s
 * []()
 
 
-## <img src="leaderboard.png" alt="🏆" style="height: 1em;"> Inst-IT bench
+## <img src="assets/leaderboard.png" alt="🏆" style="height: 1em;"> Inst-IT Bench
 
-## Inst-IT Dataset
+## <img src="assets/dataset.png" alt="🏆" style="height: 1em;"> Inst-IT Dataset
 
 ## Training
 
