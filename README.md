@@ -4,7 +4,7 @@
 
 
 
-# Inst-IT: Boosting Multimodal Instance Understanding via Explicit Visual Prompt Instruction Tuning
+# <span style="font-variant: small-caps">Inst-IT</span>: Boosting Multimodal Instance Understanding via Explicit Visual Prompt Instruction Tuning
 
 _Wujian Peng<sup>1,2*</sup>, Lingchen Meng<sup>1*</sup>, Yitong Chen<sup>1,2</sup>, Yiweng Xie<sup>1</sup>, Yang Liu<sup>1</sup>,_
 _Tao Gui<sup>1</sup>, Hang Xu<sup>3</sup>, Xipeng Qiu<sup>1,2</sup>, Zuxuan Wu<sup>1,2&dagger;</sup>, Yu-gang Jiang<sup>1</sup>_
@@ -19,8 +19,21 @@ _Tao Gui<sup>1</sup>, Hang Xu<sup>3</sup>, Xipeng Qiu<sup>1,2</sup>, Zuxuan Wu<s
 [<img src="leaderboard.png" alt="🏆" style="height: 1em;"> Leaderboard] 
 
 ## News
-* `Apr. 14, 2024` xxx
-  
+* :fire: `Dec. 4, 2024` our paper can be previewed on [Arxiv]().
+
+## Content
+* []()
+
+
+## <img src="leaderboard.png" alt="🏆" style="height: 1em;"> Inst-IT bench
+
+## Inst-IT Dataset
+
+## Training
+
+## Model weights
+Our model checkpoints and the instructions on how to use them are available at [here]().
+
 ## Todo
 - [ ] xxx
 - [ ] xxx
@@ -31,7 +44,7 @@ Feel free to contact us if you have any questions or suggestions
 Email (Wujian Peng): wjpeng24@m.fudan.edu.cn
 
 ## Citation
-If you use our code or data in this repo or find our work helpful, please consider giving a citation:
+If you find our work helpful, please consider giving us a citation and a star :star2: :
 
 ```
  @article{peng2024boosting,
