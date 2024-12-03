@@ -1,4 +1,10 @@
-# <img src="logo.jpg" style="vertical-align: -10px;" height="50px"> Inst-IT: Boosting Multimodal Instance Understanding via Explicit Visual Prompt Instruction Tuning
+<p align="center">
+  <img src="logo.jpg" width="180"> <br>
+</p>
+
+
+
+#  <span style="font-variant: small-caps;">Inst-It:</span> Boosting Multimodal Instance Understanding via Explicit Visual Prompt Instruction Tuning
 
 _Wujian Peng<sup>1,2*</sup>, Lingchen Meng<sup>1*</sup>, Yitong Chen<sup>1,2</sup>, Yiweng Xie<sup>1</sup>, Yang Liu<sup>1</sup>,_
 _Tao Gui<sup>1</sup>, Hang Xu<sup>3</sup>, Xipeng Qiu<sup>1,2</sup>, Zuxuan Wu<sup>1,2&dagger;</sup>, Yu-gang Jiang<sup>1</sup>_
