@@ -12,16 +12,17 @@ _Tao Gui<sup>1</sup>, Hang Xu<sup>3</sup>, Xipeng Qiu<sup>1,2</sup>, Zuxuan Wu<s
  <sup>1</sup>School of Computer Science, Fudan University; <sup>2</sup>Shanghai Innovation Institute; <sup>3</sup>Huawei Noah’s Ark Lab
 
 [[🌐 Project Page](https://inst-it.github.io/)]
-[[<img src="assets/paper.png" alt="📄" style="height: 1em;"> Paper](https://arxiv.org/abs/2312.00081)] 
+[[<img src="assets/paper.png" alt="📄" style="height: 1em;"> Paper](https://arxiv.org/abs/2412.03565)] 
 [<img src="assets/hf.png" alt="🤗" style="height: 1em;"> Inst-IT Bench] 
 [<img src="assets/hf.png" alt="🤗" style="height: 1em;"> Inst-IT Dataset] 
-[<img src="assets/hf.png" alt="🤗" style="height: 1em;"> Checkpoints] 
+[[<img src="assets/hf.png" alt="🤗" style="height: 1em;"> Checkpoints](https://huggingface.co/Inst-IT)] 
 [<img src="assets/leaderboard.png" alt="🏆" style="height: 1em;"> Leaderboard] 
 
 #### (We are actively maintaining this repository and will update it soon. Please stay tuned!)
 
 ## News
-* :fire: `Dec. 5, 2024` our paper can be previewed on [Arxiv]().
+* `Dec. 5, 2024` :fire: our checkpoints are available at [huggingface](https://huggingface.co/Inst-IT).
+* `Dec. 5, 2024` :fire: our paper can be previewed on [arXiv](https://arxiv.org/abs/2412.03565).
 
 ## <img src="assets/leaderboard.png" alt="🏆" style="height: 1em;"> Inst-IT Bench
 coming soon.
@@ -30,7 +31,10 @@ coming soon.
 coming soon.
 
 ## Model weights
-coming soon.
+| Model | Checkpoints |
+|:----------:|:----------:|
+| LLaVA-Next-Inst-It-Vicuna-7B | [weights](https://huggingface.co/Inst-IT/LLaVA-Next-Inst-It-Qwen2-7B) | 
+| LLaVA-Next-Inst-It-Qwen2-7B | [weights](https://huggingface.co/Inst-IT/LLaVA-Next-Inst-It-Vicuna-7B) |
 
 ## Training
 coming soon.
@@ -38,7 +42,7 @@ coming soon.
 ## Todo
 - [ ] Release the Inst-IT Bench data and evaluation code.
 - [ ] Release the Inst-IT Dataset.
-- [ ] Release the checkpoint of our fine-tuned models.
+- [x] Release the checkpoint of our fine-tuned models.
 - [ ] Release the training code.
 
 ## Contact Us
