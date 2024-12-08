@@ -19,25 +19,23 @@ _Tao Gui<sup>1</sup>, Hang Xu<sup>3</sup>, Xipeng Qiu<sup>1,2</sup>, Zuxuan Wu<s
 [<img src="assets/leaderboard.png" alt="🏆" style="height: 1em;"> Leaderboard] 
 
 #### (We are actively maintaining this repository and will update it soon. Please stay tuned!)
+* INST-IT Dataset and INST-IT Bench will be released before `Dec. 11, 2024`, please keep watching our repo.
 
 ## News
 * `Dec. 5, 2024` :fire: our checkpoints are available at [huggingface](https://huggingface.co/Inst-IT).
 * `Dec. 5, 2024` :fire: our paper can be previewed on [arXiv](https://arxiv.org/abs/2412.03565).
 
 ## <img src="assets/leaderboard.png" alt="🏆" style="height: 1em;"> Inst-IT Bench
-coming soon.
+Will be released before `Dec. 11, 2024`, please keep watching our repo.
 
 ## <img src="assets/dataset.png" alt="🏆" style="height: 1em;"> Inst-IT Dataset
-coming soon.
+Will be released before `Dec. 11, 2024`, please keep watching our repo.
 
 ## Model weights
 | Model | Checkpoints |
 |:----------:|:----------:|
 | LLaVA-Next-Inst-It-Vicuna-7B | [weights](https://huggingface.co/Inst-IT/LLaVA-Next-Inst-It-Qwen2-7B) | 
 | LLaVA-Next-Inst-It-Qwen2-7B | [weights](https://huggingface.co/Inst-IT/LLaVA-Next-Inst-It-Vicuna-7B) |
-
-## Training
-coming soon.
 
 ## Todo
 - [ ] Release the Inst-IT Bench data and evaluation code.
@@ -56,7 +54,7 @@ If you find our work helpful, please consider citing our paper :paperclip: and s
 ```
  @article{peng2024boosting,
    title={Boosting Instance Understanding via Explicit Visual Prompt Instruction Tuning},
-   author={Peng, Wujian and Meng, Lingchen and Chen, Yitong and Xie, Yiweng and Liu, Yang and Gui, Tao and Hang, Xu and Qiu, Xipeng and Wu, Zuxuan and Jiang, Yu-gang},
+   author={Peng, Wujian and Meng, Lingchen and Chen, Yitong and Xie, Yiweng and Liu, Yang and Gui, Tao and Hang, Xu and Qiu, Xipeng and Wu, Zuxuan and Jiang, Yu-Gang},
    journal={arXiv preprint},
    year={2024}
  }
