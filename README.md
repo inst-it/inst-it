@@ -14,7 +14,7 @@ _[Tao Gui<sup>1</sup>](https://guitaowufeng.github.io/), [Hang Xu<sup>3</sup>](h
 [[🌐 Project Page](https://inst-it.github.io/)]
 [[<img src="assets/paper.png" alt="📄" style="height: 1em;"> Paper](https://arxiv.org/abs/2412.03565)] 
 [[<img src="assets/hf.png" alt="🤗" style="height: 1em;"> Inst-IT Bench](https://huggingface.co/datasets/Inst-IT/Inst-IT-Bench)] 
-[<img src="assets/hf.png" alt="🤗" style="height: 1em;"> Inst-IT Dataset] 
+[[<img src="assets/hf.png" alt="🤗" style="height: 1em;"> Inst-IT Dataset]](https://huggingface.co/datasets/Inst-IT/Inst-IT-Dataset) 
 [[<img src="assets/hf.png" alt="🤗" style="height: 1em;"> Checkpoints](https://huggingface.co/Inst-IT)] 
 [<img src="assets/leaderboard.png" alt="🏆" style="height: 1em;"> Leaderboard] 
 
@@ -125,7 +125,7 @@ We trained two models base on LLaVA-Next using our [Inst-IT Dataset](https://hug
 - [x] Release the checkpoint of our fine-tuned models.
 - [ ] Release the meta-annotation of Inst-IT Dataset, such as instance sgementation masks, bounding boxes, and more ...
 - [ ] Release the annotation file of Inst-IT Dataset, which follows the format in LLaVA codebase.
-- [ ] Add a inference script of our finetuned model, i.e. a quick start snippet.
+- [ ] Add a inference script of our finetuned model, i.e. a quick start code snippet.
 - [ ] Release the leaderboard of Inst-IT Bench.
 - [ ] Release the training code.
 
