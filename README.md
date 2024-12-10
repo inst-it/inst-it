@@ -19,10 +19,9 @@ _[Tao Gui<sup>1</sup>](https://guitaowufeng.github.io/), [Hang Xu<sup>3</sup>](h
 [<img src="assets/leaderboard.png" alt="🏆" style="height: 1em;"> Leaderboard] 
 
 ## 🔥 News
-* `Dec. 11, 2024` :fire: Inst-IT Dataset is available at [here](https://huggingface.co/datasets/Inst-IT/Inst-IT-Dataset). Welcome to use our dataset!
-* `Dec. 10, 2024` :fire: Inst-IT Bench is available at [here](https://huggingface.co/datasets/Inst-IT/Inst-IT-Bench), and the evaluation guidelines is coming.
-* `Dec. 5, 2024` :fire: our checkpoints are available at [huggingface](https://huggingface.co/Inst-IT).
-* `Dec. 5, 2024` :fire: our paper can be previewed on [arXiv](https://arxiv.org/abs/2412.03565).
+* `Dec. 11, 2024` Inst-IT Dataset is available at [here](https://huggingface.co/datasets/Inst-IT/Inst-IT-Dataset). Welcome to use our dataset!
+* `Dec. 10, 2024` Inst-IT Bench is available at [here](https://huggingface.co/datasets/Inst-IT/Inst-IT-Bench), and the evaluation guidelines are coming soon.
+* `Dec. 5, 2024` our checkpoints are available at [huggingface](https://huggingface.co/Inst-IT).
 
 ## <img src="assets/leaderboard.png" alt="🏆" style="height: 1em;"> Inst-IT Bench: A Fine-grained Multimodal Benchmark for Evaluating LMMs at Instance-Level
 ### Step 1: Prepare environment and data
@@ -44,7 +43,7 @@ will be updated before `Dec. 12, 2024`, please stay tuned.
 will be updated before `Dec. 12, 2024`, please stay tuned.
 
 ## <img src="assets/dataset.png" alt="🏆" style="height: 1em;"> Inst-IT Dataset: An Instruction Tuning Dataset with Multi-level Fine-Grained Annotations
-Inst-IT Dataset can be downloaded [`here`](https://huggingface.co/datasets/Inst-IT/Inst-IT-Dataset). To the best of our knowledge, this is the first dataset that provides fine-grained annotations centric on specific instances. Inst-it Dataset contains **21k videos** and **51k images** (we treat images as static, single-frame videos). In total, Inst-it Dataset includes :
+Inst-IT Dataset can be downloaded [`here`](https://huggingface.co/datasets/Inst-IT/Inst-IT-Dataset). To the best of our knowledge, this is the first dataset that provides fine-grained annotations centric on specific instances. In total, Inst-it Dataset includes :
 - **21k** videos
 - **51k** images
 - **21k** video-level descriptions
@@ -112,8 +111,6 @@ We visualize the data structure in the figure below, and you can view a more det
 ]
 ```
 </details>
-
-Welcome to use our Inst-IT Dataset to train your LMMs! 
 
 ## <img src="assets/model.png" alt="🌐" style="height: 1em;"> Model weights
 We trained two models base on LLaVA-Next using our [Inst-IT Dataset](https://huggingface.co/datasets/Inst-IT/Inst-IT-Dataset), which not only achieve outstanding performance on [Inst-IT Bench](https://huggingface.co/datasets/Inst-IT/Inst-IT-Bench) but also demonstrate significant improvements on other generic image and video understanding benchmarks. We provide the checkpoints here:
