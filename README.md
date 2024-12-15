@@ -11,17 +11,17 @@ _[Tao Gui<sup>1</sup>](https://guitaowufeng.github.io/), [Hang Xu<sup>3</sup>](h
 
  <sup>*</sup> Equal contributions; <sup>&dagger;</sup> Corresponding author.
 
-[[🌐 Project Page](https://inst-it.github.io/)]
-[[<img src="assets/paper.png" alt="📄" style="height: 1em;"> Paper](https://arxiv.org/abs/2412.03565)] 
-[[<img src="assets/hf.png" alt="🤗" style="height: 1em;"> Inst-IT Bench](https://huggingface.co/datasets/Inst-IT/Inst-IT-Bench)] 
-[[<img src="assets/hf.png" alt="🤗" style="height: 1em;"> Inst-IT Dataset]](https://huggingface.co/datasets/Inst-IT/Inst-IT-Dataset) 
-[[<img src="assets/hf.png" alt="🤗" style="height: 1em;"> Checkpoints](https://huggingface.co/Inst-IT)] 
-[<img src="assets/leaderboard.png" alt="🏆" style="height: 1em;"> Leaderboard] 
+[[🌐 `Project Page`](https://inst-it.github.io/)]
+[[<img src="assets/paper.png" alt="📄" style="height: 1em;"> `Paper`](https://arxiv.org/abs/2412.03565)] 
+[[<img src="assets/hf.png" alt="🤗" style="height: 1em;"> `Inst-IT Bench`](https://huggingface.co/datasets/Inst-IT/Inst-IT-Bench)] 
+[[<img src="assets/hf.png" alt="🤗" style="height: 1em;"> `Inst-IT Dataset`]](https://huggingface.co/datasets/Inst-IT/Inst-IT-Dataset) 
+[[<img src="assets/hf.png" alt="🤗" style="height: 1em;"> `Checkpoints`](https://huggingface.co/Inst-IT)] 
+[<img src="assets/leaderboard.png" alt="🏆" style="height: 1em;"> `Leaderboard`] 
 
 ## 🔥 News
-* `Dec. 11, 2024` Inst-IT Dataset is available at [here](https://huggingface.co/datasets/Inst-IT/Inst-IT-Dataset). Welcome to use our dataset!
-* `Dec. 10, 2024` Inst-IT Bench is available at [here](https://huggingface.co/datasets/Inst-IT/Inst-IT-Bench), and the evaluation guidelines are coming soon.
-* `Dec. 5, 2024` our checkpoints are available at [huggingface](https://huggingface.co/Inst-IT).
+* `Dec. 11, 2024` Inst-IT Dataset is available at [`here`](https://huggingface.co/datasets/Inst-IT/Inst-IT-Dataset). Welcome to use our dataset!
+* `Dec. 10, 2024` Inst-IT Bench is available at [`here`](https://huggingface.co/datasets/Inst-IT/Inst-IT-Bench), and the evaluation guidelines are coming soon.
+* `Dec. 5, 2024` our checkpoints are available at [`huggingface`](https://huggingface.co/Inst-IT).
 
 ## <img src="assets/leaderboard.png" alt="🏆" style="height: 1em;"> Inst-IT Bench: A Fine-grained Multimodal Benchmark for Evaluating LMMs at Instance-Level
 ### Step 1: Prepare environment and data
@@ -37,22 +37,22 @@ cd Inst-IT-Bench && unzip images.zip && unzip videos.zip
 ```
 
 ### Step 2: Inference your model on Inst-IT Bench
-will be updated before `Dec. 12, 2024`, please stay tuned.
+will be updated soon, please stay tuned.
 
 ### Step 3: Evaluate model predictions
-will be updated before `Dec. 12, 2024`, please stay tuned.
+will be updated soon, please stay tuned.
 
 ## <img src="assets/dataset.png" alt="🏆" style="height: 1em;"> Inst-IT Dataset: An Instruction Tuning Dataset with Multi-level Fine-Grained Annotations
-Inst-IT Dataset can be downloaded [`here`](https://huggingface.co/datasets/Inst-IT/Inst-IT-Dataset). To the best of our knowledge, this is the first dataset that provides fine-grained annotations centric on specific instances. In total, Inst-it Dataset includes :
+Inst-IT Dataset can be downloaded [`here`](https://huggingface.co/datasets/Inst-IT/Inst-IT-Dataset). To our knowledge, this is the first dataset that provides fine-grained annotations centric on specific instances. In total, Inst-it Dataset includes :
 - **21k** videos
 - **51k** images
 - **21k** video-level descriptions
 - **207k** frame-level descriptions (51k images, 156k video frames) (each frame-level description includes captions of 1)individual instances, 2)the entire image, and 3)the temporal changes.)
 - **335k** open-ended QA pairs
 
-We visualize the data structure in the figure below, and you can view a more detailed data sample [[`here`]](https://inst-it.github.io/#dataset).
+We visualize the data structure in the figure below, and you can view a more detailed data sample [`here`](https://inst-it.github.io/#dataset).
 <p align="center">
-    <img src="https://inst-it.github.io/images/data.png" width="70%"> <br>
+    <img src="https://inst-it.github.io/images/data.png" width="80%"> <br>
 </p>
 
 <details>
@@ -113,19 +113,19 @@ We visualize the data structure in the figure below, and you can view a more det
 </details>
 
 ## <img src="assets/model.png" alt="🌐" style="height: 1em;"> Model weights
-We trained two models base on LLaVA-Next using our [Inst-IT Dataset](https://huggingface.co/datasets/Inst-IT/Inst-IT-Dataset), which not only achieve outstanding performance on [Inst-IT Bench](https://huggingface.co/datasets/Inst-IT/Inst-IT-Bench) but also demonstrate significant improvements on other generic image and video understanding benchmarks. We provide the checkpoints here:
+We trained two models based on LLaVA-Next using our [`Inst-IT Dataset`](https://huggingface.co/datasets/Inst-IT/Inst-IT-Dataset), which not only achieve outstanding performance on [`Inst-IT Bench`](https://huggingface.co/datasets/Inst-IT/Inst-IT-Bench) but also demonstrate significant improvements on other generic image and video understanding benchmarks. We provide the checkpoints here:
 | Model | Checkpoints |
 |:----------:|:----------:|
-| LLaVA-Next-Inst-It-Vicuna-7B | [weights](https://huggingface.co/Inst-IT/LLaVA-Next-Inst-It-Qwen2-7B) | 
-| LLaVA-Next-Inst-It-Qwen2-7B | [weights](https://huggingface.co/Inst-IT/LLaVA-Next-Inst-It-Vicuna-7B) |
+| LLaVA-Next-Inst-It-Vicuna-7B | [`weights`](https://huggingface.co/Inst-IT/LLaVA-Next-Inst-It-Qwen2-7B) | 
+| LLaVA-Next-Inst-It-Qwen2-7B | [`weights`](https://huggingface.co/Inst-IT/LLaVA-Next-Inst-It-Vicuna-7B) |
 
 ## <img src="assets/todo.png" alt="📝" style="height: 1em;">  Todo
 - [x] Release the Inst-IT Bench data and evaluation code.
 - [x] Release the Inst-IT Dataset.
 - [x] Release the checkpoint of our fine-tuned models.
-- [ ] Release the meta-annotation of Inst-IT Dataset, such as instance sgementation masks, bounding boxes, and more ...
-- [ ] Release the annotation file of Inst-IT Dataset, which follows the format in LLaVA codebase.
-- [ ] Add a inference script of our finetuned model, i.e. a quick start code snippet.
+- [ ] Release the meta-annotation of Inst-IT Dataset, such as instance segmentation masks, bounding boxes, and more ...
+- [ ] Release the annotation file of Inst-IT Dataset, which follows the format in the LLaVA codebase.
+- [ ] Add an inference script of our finetuned model, i.e. a quick start code snippet.
 - [ ] Release the leaderboard of Inst-IT Bench.
 - [ ] Release the training code.
 
