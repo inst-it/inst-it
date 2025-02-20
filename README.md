@@ -1,49 +1,66 @@
-<div align="center">
-  <img src="assets/logo.png" width="100px" style="vertical-align: middle; display: inline;">
+<div align="center" style="font-family: charter;">
+
+<h1><img src="assets/logo.png" width="4%"/> <i>Inst-It</i>:</br> Boosting Multimodal Instance Understanding via Explicit Visual Prompt Instruction Tuning</h1>
+<a href="https://inst-it.github.io/" target="_blank">
+    <img alt="Website" src="https://img.shields.io/badge/🌎_Website-Inst--It-ffc107?color=578FCA&logoColor=white" height="20" />
+</a>
+<a href="[https://arxiv.org/abs/2412.14171](https://arxiv.org/abs/2412.03565)" target="_blank">
+    <img alt="arXiv" src="https://img.shields.io/badge/arXiv-Inst--It-red?logo=arxiv" height="20" />
+</a>
+<a href="https://huggingface.co/datasets/Inst-IT/Inst-It-Bench" target="_blank">
+    <img alt="HF Dataset: Inst-It-Bench" src="https://img.shields.io/badge/%F0%9F%A4%97%20_Benchmark-Inst--It-ffc107?color=A9B5DF&logoColor=white" height="20" />
+</a>
+<a href="https://huggingface.co/datasets/Inst-IT/Inst-It-Dataset" target="_blank">
+    <img alt="HF Dataset: Inst-It-Dataset" src="https://img.shields.io/badge/%F0%9F%A4%97%20_Dataset-Inst--It-ffc107?color=B3D8A8&logoColor=white" height="20" />
+</a>
+<a href="https://huggingface.co/Inst-IT" target="_blank">
+    <img alt="HF Model: Inst-It" src="https://img.shields.io/badge/%F0%9F%A4%97%20_Model-Inst--It-ffc107?color=FFCF50&logoColor=white" height="20" />
+</a>
+<a href="https://huggingface.co/spaces/Inst-IT/Leaderboard" target="_blank">
+    <img alt="Leaderboard" src="https://img.shields.io/badge/🥇_Leaderboard-Inst--It-ffc107?color=E07A5F&logoColor=white" height="20" />
+</a>
+
+<div>
+    <a href="https://scholar.google.com/citations?user=GTuWk9YAAAAJ&hl=zh-CN" target="_blank">Wujian Peng</a><sup>1,2*</sup>,</span>
+    <a href="https://menglcool.github.io/" target="_blank">Lingchen Meng</a><sup>1*</sup>, </span>
+    <a href="https://scholar.google.cz/citations?user=a40b6HQAAAAJ&hl=zh-CN" target="_blank">Yitong Chen</a><sup>1,2</sup>,</span>
+    Yiweng Xie<sup>1</sup>,</span>
+    Yang Liu<sup>1</sup>,</span>
+    <a href="https://guitaowufeng.github.io/" target="_blank">Tao Gui</a><sup>1</sup>,</span>
+    <a href="https://xuhangcn.github.io/" target="_blank">Hang Xu</a><sup>3</sup>,</span>
+    <a href="https://xpqiu.github.io/en.html" target="_blank">Xipeng Qiu</a><sup>1,2</sup>,</span>
+    <a href="https://zxwu.azurewebsites.net/" target="_blank">Zuxuan Wu</a><sup>1,2&dagger;</sup>,</span>
+    <a href="https://scholar.google.com/citations?user=f3_FP8AAAAAJ&hl=en" target="_blank">Yu-Gang Jiang</a><sup>1</sup></span>
 </div>
 
-# <span style="font-variant: small-caps">Inst-IT</span>: Boosting Multimodal Instance Understanding via Explicit Visual Prompt Instruction Tuning
+<div>
+    <sup>1</sup>School of Computer Science, Fudan University&emsp;
+    <sup>2</sup>Shanghai Innovation Institute&emsp;
+    <sup>3</sup>Huawei Noah’s Ark Lab&emsp;
+</div>
 
-_[Wujian Peng<sup>1,2*</sup>](https://scholar.google.com/citations?user=GTuWk9YAAAAJ&hl=zh-CN), [Lingchen Meng<sup>1*</sup>](https://menglcool.github.io/), Yitong Chen<sup>1,2</sup>, Yiweng Xie<sup>1</sup>, Yang Liu<sup>1</sup>,_
-_[Tao Gui<sup>1</sup>](https://guitaowufeng.github.io/), [Hang Xu<sup>3</sup>](https://xuhangcn.github.io/), [Xipeng Qiu<sup>1,2</sup>](https://xpqiu.github.io/en.html), [Zuxuan Wu<sup>1,2&dagger;</sup>](https://xpqiu.github.io/en.html), [Yu-Gang Jiang<sup>1</sup>](https://scholar.google.com/citations?user=f3_FP8AAAAAJ&hl=en)_
+<div>
+    <sup>*</sup> Equal contributions&emsp;
+    <sup>&dagger;</sup> Corresponding author&emsp;
+</div>
 
- <sup>1</sup>School of Computer Science, Fudan University; <sup>2</sup>Shanghai Innovation Institute; <sup>3</sup>Huawei Noah’s Ark Lab
-
- <sup>*</sup> Equal contributions; <sup>&dagger;</sup> Corresponding author.
-
-[[🌐 `Project Page`](https://inst-it.github.io/)]
-[[<img src="assets/paper.png" alt="📄" style="height: 1em;"> `Paper`](https://arxiv.org/abs/2412.03565)] 
-[[<img src="assets/hf.png" alt="🤗" style="height: 1em;"> `Inst-IT Bench`](https://huggingface.co/datasets/Inst-IT/Inst-IT-Bench)] 
-[[<img src="assets/hf.png" alt="🤗" style="height: 1em;"> `Inst-IT Dataset`]](https://huggingface.co/datasets/Inst-IT/Inst-IT-Dataset) 
-[[<img src="assets/hf.png" alt="🤗" style="height: 1em;"> `Checkpoints`](https://huggingface.co/Inst-IT)] 
-[<img src="assets/leaderboard.png" alt="🏆" style="height: 1em;"> `Leaderboard`] 
+</div>
 
 ## 🔥 News
-* `Dec. 11, 2024` Inst-IT Dataset is available at [`here`](https://huggingface.co/datasets/Inst-IT/Inst-IT-Dataset). Welcome to use our dataset!
-* `Dec. 10, 2024` Inst-IT Bench is available at [`here`](https://huggingface.co/datasets/Inst-IT/Inst-IT-Bench), and the evaluation guidelines are coming soon.
+* `Feb. 19, 2025` Inst-It Bench [`Evaluation toolkit`](inst-it-bench/README.md) is released, you can evluate your model now!
+* `Dec. 11, 2024` Inst-It Dataset is available at [`here`](https://huggingface.co/datasets/Inst-IT/Inst-It-Dataset). Welcome to use our dataset!
 * `Dec. 5, 2024` our checkpoints are available at [`huggingface`](https://huggingface.co/Inst-IT).
 
-## <img src="assets/leaderboard.png" alt="🏆" style="height: 1em;"> Inst-IT Bench: A Fine-grained Multimodal Benchmark for Evaluating LMMs at Instance-Level
-### Step 1: Prepare environment and data
-#### install
-```shell
-pip install openai
-pip install -U "huggingface_hub[cli]"
-```
-#### prepare data
-```shell
-huggingface-cli download --repo-type dataset --resume-download Inst-IT/Inst-IT-Bench --local-dir Inst-IT-Bench
-cd Inst-IT-Bench && unzip images.zip && unzip videos.zip
-```
+## <img src="assets/leaderboard.png" alt="🏆" style="height: 1em;"> Inst-It Bench
+Inst-It Bench is a fine-grained multimodal benchmark for evaluating LMMs at the instance-level.
+* **Size:** ~1,000 image QAs and ~1,000 video QAs
+* **Splits:** Image split and Video split
+* **Evaluation Formats:** Open-Ended and Multiple-Choice
+  
+See this [`Evaluate.md`](inst-it-bench/README.md) to learn how to perform evaluation on Inst-It-Bench.
 
-### Step 2: Inference your model on Inst-IT Bench
-will be updated soon, please stay tuned.
-
-### Step 3: Evaluate model predictions
-will be updated soon, please stay tuned.
-
-## <img src="assets/dataset.png" alt="🏆" style="height: 1em;"> Inst-IT Dataset: An Instruction Tuning Dataset with Multi-level Fine-Grained Annotations
-Inst-IT Dataset can be downloaded [`here`](https://huggingface.co/datasets/Inst-IT/Inst-IT-Dataset). To our knowledge, this is the first dataset that provides fine-grained annotations centric on specific instances. In total, Inst-it Dataset includes :
+## <img src="assets/dataset.png" alt="🏆" style="height: 1em;"> Inst-It Dataset
+Inst-It Dataset can be downloaded [`here`](https://huggingface.co/datasets/Inst-IT/Inst-IT-Dataset). To our knowledge, this is the first dataset that provides fine-grained annotations centric on specific instances. In total, Inst-it Dataset includes :
 - **21k** videos
 - **51k** images
 - **21k** video-level descriptions
@@ -56,15 +73,15 @@ We visualize the data structure in the figure below, and you can view a more det
 </p>
 
 <details>
-<summary>click here to see the annotation format of Inst-IT Bench</summary>
+<summary>click here to see the annotation format of Inst-It-Bench</summary>
   
-- video annotations in file [`inst_it_dataset_video_21k.json`](https://huggingface.co/datasets/Inst-IT/Inst-IT-Dataset/blob/main/inst_it_dataset_video_21k.json)
+- video annotations in file [`inst_it_dataset_video_21k.json`](https://huggingface.co/datasets/Inst-IT/Inst-It-Dataset/blob/main/inst_it_dataset_video_21k.json)
 
 ```
 [
     {
         "video_id": int,
-        "frame_level_caption": (annotation for each frames within this video)
+        "frame_level_caption": (annotation for each frame within this video)
           [
               {
                   "timestamp": int, (indicate the timestamp of this frame in the video, e.g. <1>)
@@ -94,7 +111,7 @@ We visualize the data structure in the figure below, and you can view a more det
 ]
 ```
 
-- image annotations in file [`inst_it_dataset_image_51k.json`](https://huggingface.co/datasets/Inst-IT/Inst-IT-Dataset/blob/main/inst_it_dataset_image_51k.json)
+- image annotations in file [`inst_it_dataset_image_51k.json`](https://huggingface.co/datasets/Inst-IT/Inst-It-Dataset/blob/main/inst_it_dataset_image_51k.json)
 ```
 [
     {
@@ -113,20 +130,18 @@ We visualize the data structure in the figure below, and you can view a more det
 </details>
 
 ## <img src="assets/model.png" alt="🌐" style="height: 1em;"> Model weights
-We trained two models based on LLaVA-Next using our [`Inst-IT Dataset`](https://huggingface.co/datasets/Inst-IT/Inst-IT-Dataset), which not only achieve outstanding performance on [`Inst-IT Bench`](https://huggingface.co/datasets/Inst-IT/Inst-IT-Bench) but also demonstrate significant improvements on other generic image and video understanding benchmarks. We provide the checkpoints here:
+We trained two models based on LLaVA-Next using our [`Inst-It-Dataset`](https://huggingface.co/datasets/Inst-IT/Inst-It-Dataset), which not only achieve outstanding performance on [`Inst-It-Bench`](https://huggingface.co/datasets/Inst-IT/Inst-It-Bench) but also demonstrate significant improvements on other generic image and video understanding benchmarks. We provide the checkpoints here:
 | Model | Checkpoints |
 |:----------:|:----------:|
-| LLaVA-Next-Inst-It-Vicuna-7B | [`weights`](https://huggingface.co/Inst-IT/LLaVA-Next-Inst-It-Qwen2-7B) | 
-| LLaVA-Next-Inst-It-Qwen2-7B | [`weights`](https://huggingface.co/Inst-IT/LLaVA-Next-Inst-It-Vicuna-7B) |
+| LLaVA-Next-Inst-It-Vicuna-7B | [`weights and docs`](https://huggingface.co/Inst-IT/LLaVA-Next-Inst-It-Qwen2-7B) | 
+| LLaVA-Next-Inst-It-Qwen2-7B | [`weights and docs`](https://huggingface.co/Inst-IT/LLaVA-Next-Inst-It-Vicuna-7B) |
 
 ## <img src="assets/todo.png" alt="📝" style="height: 1em;">  Todo
-- [x] Release the Inst-IT Bench data and evaluation code.
-- [x] Release the Inst-IT Dataset.
+- [x] Release the Inst-It Bench data and evaluation code.
+- [x] Release the Inst-It Dataset.
 - [x] Release the checkpoint of our fine-tuned models.
-- [ ] Release the meta-annotation of Inst-IT Dataset, such as instance segmentation masks, bounding boxes, and more ...
-- [ ] Release the annotation file of Inst-IT Dataset, which follows the format in the LLaVA codebase.
-- [ ] Add an inference script of our finetuned model, i.e. a quick start code snippet.
-- [ ] Release the leaderboard of Inst-IT Bench.
+- [ ] Release the meta-annotation of Inst-It Dataset, such as instance segmentation masks, bounding boxes, and more ...
+- [ ] Release the annotation file of Inst-It Dataset, which follows the format in the LLaVA codebase.
 - [ ] Release the training code.
 
 ##  <img src="assets/email.png" alt="📧" style="height: 1em;"> Contact Us
@@ -136,11 +151,11 @@ Feel free to contact us if you have any questions or suggestions
 ##  <img src="assets/cite.png" alt="📎" style="height: 1em;"> Citation
 If you find our work helpful, please consider citing our paper :paperclip: and starring our repo :star2: :
 
-```
- @article{peng2024boosting,
-   title={Inst-IT: Boosting Multimodal Instance Understanding via Explicit Visual Prompt Instruction Tuning},
-   author={Peng, Wujian and Meng, Lingchen and Chen, Yitong and Xie, Yiweng and Liu, Yang and Gui, Tao and Hang, Xu and Qiu, Xipeng and Wu, Zuxuan and Jiang, Yu-Gang},
-   journal={arXiv preprint arXiv:2412.03565},
-   year={2024}
- }
+``` bibtex
+@article{peng2024inst,
+  title={Inst-IT: Boosting Multimodal Instance Understanding via Explicit Visual Prompt Instruction Tuning},
+  author={Peng, Wujian and Meng, Lingchen and Chen, Yitong and Xie, Yiweng and Liu, Yang and Gui, Tao and Xu, Hang and Qiu, Xipeng and Wu, Zuxuan and Jiang, Yu-Gang},
+  journal={arXiv preprint arXiv:2412.03565},
+  year={2024}
+}
 ```
