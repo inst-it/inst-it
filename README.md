@@ -1,6 +1,6 @@
 <div align="center" style="font-family: charter;">
-
-<h1><img src="assets/logo.png" width="4%"/> <i>Inst-It</i>:</br> Boosting Multimodal Instance Understanding via Explicit Visual Prompt Instruction Tuning</h1>
+<img src="assets/logo.png" width="8%"/>
+<h1><i>Inst-It</i>: Boosting Multimodal Instance Understanding via Explicit Visual Prompt Instruction Tuning</h1>
 <a href="https://inst-it.github.io/" target="_blank">
     <img alt="Website" src="https://img.shields.io/badge/🌎_Website-Inst--It-ffc107?color=578FCA&logoColor=white" height="20" />
 </a>
