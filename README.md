@@ -4,7 +4,7 @@
 <a href="https://inst-it.github.io/" target="_blank">
     <img alt="Website" src="https://img.shields.io/badge/🌎_Website-Inst--It-ffc107?color=578FCA&logoColor=white" height="20" />
 </a>
-<a href="[https://arxiv.org/abs/2412.14171](https://arxiv.org/abs/2412.03565)" target="_blank">
+<a href="https://arxiv.org/abs/2412.03565" target="_blank">
     <img alt="arXiv" src="https://img.shields.io/badge/arXiv-Inst--It-red?logo=arxiv" height="20" />
 </a>
 <a href="https://huggingface.co/datasets/Inst-IT/Inst-It-Bench" target="_blank">
